@@ -1,0 +1,12 @@
+
+package daoexample;
+
+import java.util.List;
+
+public interface StudentDAO // DAO -data access object
+{
+   public List<Student> getAllStudents();
+   public Student getStudent(int rollNo);
+   public void updateStudent(Student student);
+   public void deleteStudent(Student student);
+}
